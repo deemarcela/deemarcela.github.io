@@ -4,18 +4,16 @@
 *{
 	padding:0;
 	margin:0;
-	box-sizing: border-box;
 }
 
 body {
 	font-family: 'Karla', 'Helvetica', sans-serif;
-    background-color: #E6E6FA;
     font-size: 16px; /*1em = 16px*/
     text-align: left;
     color: rgb(0,0,0);
     line-height: 1.3em;
-    align-content: center;
     position: relative;
+    width: 1200px;
    
 }
 
@@ -26,8 +24,9 @@ header
 }
 
 nav a{
+	font-size: 1.15em;
 	color: rgb(0,0,0);
-	padding: 20px;
+	padding-right: 20px;
 	margin: auto;
 	align-content: center;
 	text-align: center;
@@ -46,7 +45,7 @@ img{
 
 main{
 	padding: 20px;
-	width: 600px;
+	width: 1000px;
 }
 
 section{
@@ -56,20 +55,22 @@ section{
 h1
 {
 	color: rgb(0,0,0);
-	line-height: 2.5em;
-	font-size: 2em;
+	font-size: 3.2em;
+	line-height: 1.5em;
+	font-weight: 500;
 }
 
 h2
 {
 	color: rgb(0,0,0);
+	font-size: 1.5em;
 	line-height: 1.5em;
+	font-size: 300;
 }
 
 p
 {
 	color: rgb(0,0,0);
-	line-height: 1.5em;
 }
 
 a{
