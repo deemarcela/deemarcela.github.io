@@ -25,12 +25,18 @@ body {
 
 header
 {
-	padding: 20px;
+	background-color: #FFED74; /*remove later*/
+	border:1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+	width: 1000px;
+	margin-top: 50px;
 
 }
 
 nav{
-
+	background-color:#E8C66A; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
 	margin-top: 25px;
 }
 
@@ -60,13 +66,16 @@ img{
 
 
 main{
-	padding: 20px;
-	width: 1000px;
+	background-color: #FFE2B8; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
 	margin-top: 50px;
 }
 
-section{
-	padding: 20px;
+section {
+	background-color: #FFC675 /*remove later*/
+	border:1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
 }
 
 h1
@@ -96,6 +105,8 @@ a{
 }
 
 footer{
+	background: #FF957E; /*remove later*/
+	border: 1px black solid; /*remove later*/
 	padding: 20px;
 	width: 600px;
 }
