@@ -1,0 +1,124 @@
+@import 'https://fonts.googleapis.com/css?family=Karla';
+
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+	font-family: 'Karla', 'Helvetica', sans-serif;
+    font-size: 16px; /*1em = 16px*/
+    text-align: left;
+    color: rgb(0,0,0);
+    line-height: 1.3em;
+    position: relative;
+   
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+
+header
+{
+	background-color: #FFED74; /*remove later*/
+	border:1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+	width: 1000px;
+	margin-top: 50px;
+
+}
+
+nav{
+	background-color:#E8C66A; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+	margin-top: 25px;
+}
+
+nav a{
+	font-size: 1.15em;
+	color: rgb(0,0,0);
+	padding-right: 20px;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.right {
+	padding-right: 450px;
+}
+
+img{
+	width: 100%;
+}
+
+
+main{
+	background-color: #FFE2B8; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px; /*remove later*/
+	margin-top: 50px;
+}
+
+section {
+	background-color: #FFC675 /*remove later*/
+	border:1px black solid; /*remove later*/
+}
+
+
+.portfolio {
+	width:50%;
+	margin:1.5%;
+	float:left;
+
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear:both;
+}
+
+
+h1
+{
+	color: rgb(0,0,0);
+	font-size: 3.4em;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+
+h2
+{
+	color: rgb(0,0,0);
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-size: 300;
+}
+
+p
+{
+	color: rgb(0,0,0);
+}
+
+a{
+	color: inherit;
+	text-decoration: underline;
+}
+
+footer{
+	background: #FF957E; /*remove later*/
+	border: 1px black solid; /*remove later*/
+	padding: 20px;
+	width: 600px;
+}
+
