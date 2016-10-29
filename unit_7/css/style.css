@@ -1,0 +1,141 @@
+@import 'https://fonts.googleapis.com/css?family=Karla';
+
+
+*{
+	padding:0;
+	margin:0;
+}
+
+@mediaonly screen and (max-width: 1240px) {
+	.right { padding-right: 0%; }
+}
+
+@mediaonly screen and (max-width: 1240px) {
+	nav {
+		font-size: 16px;
+	}
+	h1 {
+		font-size: 18px;
+	}
+}
+
+body {
+	font-family: 'Karla', 'Helvetica', sans-serif;
+    font-size: 1em; /*1em = 16px*/
+    text-align: left;
+    color: rgb(0,0,0);
+    line-height: 1.3em;
+    position: relative;
+   
+}
+
+#wrapper {
+	width: 85%;
+	margin: 0 auto;
+	align-content: center;
+
+}
+
+
+header
+{
+	padding: 1.25em; /*remove later*/
+	width: 83.3333%;
+	margin-top: 3em;
+
+}
+
+nav{
+	padding: 1.25em; /*remove later*/
+	margin-top: 1.5em;
+}
+
+nav a{
+	font-size: 1.15em;
+	color: rgb(0,0,0);
+	padding-right: 1.25em;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.right {
+	padding-right: 30%;
+}
+
+// added this as a container for the two column images
+.two-column {
+	width: 100%;
+	text-align: center;
+	align-content: center;
+}
+
+img{
+	width: 45%; /*made this width less than 50% incase you wanted to add some space between each image*/
+	display: inline-block;
+	margin: 0.25em;
+	padding: 0.25em;
+
+}
+
+
+main{
+	margin-top: 3em;
+	align-content: center;
+}
+
+section {
+
+}
+
+
+/* no need for the floating left */
+.portfolio {
+	width:100%;
+	// margin:1.5%;
+	// float:left;
+
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear:both;
+}
+
+
+h1
+{
+	color: rgb(0,0,0);
+	font-size: 3.4em;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+
+h2
+{
+	color: rgb(0,0,0);
+	font-size: 3.4em;
+	line-height: 1.5em;
+	font-size: 300;
+}
+
+p
+{
+	color: rgb(0,0,0);
+}
+
+a{
+	color: inherit;
+	text-decoration: underline;
+}
+
+footer{
+	padding: 1.25em;
+	width: 50%;
+}
+
