@@ -36,6 +36,7 @@ header
 nav{
 	padding: 1.25em; /*remove later*/
 	margin-top: 1.5em;
+	float: left;
 }
 
 nav a{
@@ -47,10 +48,6 @@ nav a{
 	text-decoration: none;
 }
 
-
-.right {
-	padding-right: 30%;
-}
 
 // added this as a container for the two column images
 .two-column {
@@ -73,16 +70,12 @@ main{
 	align-content: center;
 }
 
-section {
-
-}
 
 
 /* no need for the floating left */
 .portfolio {
 	width:100%;
 	// margin:1.5%;
-	// float:left;
 
 }
 
@@ -127,22 +120,49 @@ footer{
 	width: 50%;
 }
 
-@mediaonly screen and (max-width: 1240px) {
-	.right { padding-right: 0%; }
-	.portfolio {
-		float:none;
-		width: auto;
-	}
-}
 
-@mediaonly screen and (min-width: 768px) {
-	nav {
-		font-size: 1em;
+
+@media screen and (max-width:910px){
+	nav{
+		display: none;
 	}
+
+	nav a:link{
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+
+	img {
+	width: 100%; /*made this width less than 50% incase you wanted to add some space between each image*/
+	display: inline-block;
+	margin: 0.25em;
+	padding: 0.25em;
+	}
+
 	h1 {
-		font-size: 1.25em;
+	color: rgb(0,0,0);
+	font-size: 2em;
+	line-height: 1.6em;
+	font-weight: 500;
 	}
 
-
+	footer{
+	font-size: 12px;
+	width: 50%;
+	line-height: 1.2em;
+	}
 }
+
+@media screen and (max-width:1000px) {
+
+	h1 {
+	color: rgb(0,0,0);
+	font-size: 3em;
+	line-height: 1.4em;
+	font-weight: 500;
+
+
+
+
 
