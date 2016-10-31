@@ -117,20 +117,26 @@ a{
 
 footer{
 	padding: 1.25em;
-	width: 50%;
+	width: 75%;
 }
 
+@media screen and (max-width:1000px) {
 
+ 	body {
+	font-size: 14px; 
+	line-height: 1em;
+	}
+}
 
 @media screen and (max-width:910px){
 	nav{
-		display: none;
+	display: none;
 	}
 
 	nav a:link{
-		display: block;
-		padding:15px;
-		margin:5px;
+	display: block;
+	padding:15px;
+	margin:5px;
 	}
 
 	img {
@@ -140,27 +146,27 @@ footer{
 	padding: 0.25em;
 	}
 
-	h1 {
-	color: rgb(0,0,0);
-	font-size: 2em;
-	line-height: 1.6em;
-	font-weight: 500;
+	body {
+	font-size: 12px; 
+	line-height: 1em;
+	}
+}
+
+
+@media screen and (max-width:590px) {
+
+	body {
+	font-size: 8px;
+	line-height: 1em;
 	}
 
 	footer{
 	font-size: 12px;
-	width: 50%;
+	width: 100%;
 	line-height: 1.2em;
 	}
+
 }
-
-@media screen and (max-width:1000px) {
-
-	h1 {
-	color: rgb(0,0,0);
-	font-size: 3em;
-	line-height: 1.4em;
-	font-weight: 500;
 
 
 
