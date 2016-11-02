@@ -10,11 +10,15 @@
         <style>
         @import 'https://fonts.googleapis.com/css?family=Karla';
         </style>
-
+      </head>
         <body>
             <div id="wrapper">
 
-            <input type="checkbox" id="navbar-checkbox" class="navbar-checkbox">
+            <div id="mobile-button" class="mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 
             <nav class="menu">
                 <a href="#">About</a>
@@ -67,6 +71,18 @@
             </div>
         </body>
 
-    </head>
+  
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+
+  <script>
+    $('#mobile-button').click(function(){
+     
+        $('.menu').toggleClass('show');
+    });
+  </script>
 
 </html>
